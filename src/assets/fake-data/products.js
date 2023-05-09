@@ -40,11 +40,11 @@ const products = [
     id: "02",
     title: "Vegetarian Pizza",
     price: 115.0,
-    image01: product_02_image_01,
+    image01: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/c53ce130542adf692e861b4bf9756883",
     image02: product_02_image_02,
     image03: product_02_image_03,
     category: "Pizza",
-    
+
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
@@ -56,7 +56,7 @@ const products = [
     image02: product_03_image_02,
     image03: product_03_image_03,
     category: "Pizza",
-    
+
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
@@ -68,7 +68,7 @@ const products = [
     image02: product_04_image_02,
     image03: product_04_image_03,
     category: "Pizza",
-    
+
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
@@ -103,7 +103,7 @@ const products = [
     image02: product_02_image_01,
     image03: product_02_image_03,
     category: "Pizza",
-    
+
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
@@ -115,7 +115,7 @@ const products = [
     image02: product_03_image_01,
     image03: product_03_image_03,
     category: "Pizza",
-    
+
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
@@ -127,7 +127,7 @@ const products = [
     image02: product_04_image_01,
     image03: product_04_image_03,
     category: "Pizza",
-    
+
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 

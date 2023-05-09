@@ -25,3 +25,30 @@
 .paginationBttns a:hover {
   background: #df2020;
 }
+
+.category_btn_active {
+  border: none;
+  padding: 7px 25px;
+  background: #df2020;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.category_btn {
+  border: none;
+  padding: 7px 25px;
+  background: #fff;
+  color: #df2020;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.category_btn:hover {
+  border: none;
+  padding: 7px 25px;
+  background: #df2020;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
