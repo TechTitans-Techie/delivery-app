@@ -31,6 +31,7 @@
     "yup": "^1.1.1"
   },
   "scripts": {
+    "start-server": "json-server --watch data.json --port 8000",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",

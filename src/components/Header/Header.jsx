@@ -97,6 +97,16 @@ const Header = () => {
                   {item.display}
                 </NavLink>
               ))}
+              <NavLink
+                to={"/login"}
+                key={"login"}
+                className={(navClass) =>
+                  navClass.isActive ? "active__menu" : ""
+                }
+                onClick={toggleMenu}
+              >
+                Logout
+              </NavLink>
             </div>
           </div>
 

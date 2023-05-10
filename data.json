@@ -1,11 +1,18 @@
 {
   "users": [
     {
-      "email": "nani@gmail.com",
+      "email": "admin@admin.com",
       "firstName": null,
       "lastName": null,
-      "password": "nani",
+      "password": "admin",
       "id": 1
+    },
+    {
+      "email": "manojkumar@gmail.com",
+      "firstName": "manoj",
+      "lastName": "kumar",
+      "password": "manoj",
+      "id": 2
     }
   ],
   "orders": [

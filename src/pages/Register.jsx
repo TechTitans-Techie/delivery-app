@@ -39,8 +39,8 @@ export default function SignUp() {
 
         const email = data.get('email');
         const password = data.get('password');
-        const firstName = data.get('firstname');
-        const lastName = data.get('lastname');
+        const firstName = data.get('firstName');
+        const lastName = data.get('lastName');
         axios.post('/users', {
             email, firstName, lastName, password
         })

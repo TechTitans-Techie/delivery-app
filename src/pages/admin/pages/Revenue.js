@@ -2,7 +2,7 @@ import React from 'react'
 
 function Revenue() {
     return (
-        <div>revenue</div>
+        <div>Monthly Revenue: 4400</div>
     )
 }
 

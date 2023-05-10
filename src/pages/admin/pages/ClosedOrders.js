@@ -14,7 +14,7 @@ function AcceptedOrders() {
                 setorders(res.data)
                 setloading(false)
             })
-    })
+    }, [])
     return (
         <>
             <CommonSection title="Delivered Orders" />
