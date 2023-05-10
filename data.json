@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "email": "nani@gmail.com",
+      "firstName": null,
+      "lastName": null,
+      "password": "nani",
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "items": [
+        {
+          "id": "03",
+          "title": "Double Cheese Margherita",
+          "image01": "/static/media/product_3.1.9c207cdf.jpg",
+          "price": 110,
+          "quantity": 2,
+          "totalPrice": 110
+        },
+        {
+          "id": "04",
+          "title": "Maxican Green Wave",
+          "image01": "/static/media/product_4.1.3c8ecc49.jpg",
+          "price": 110,
+          "quantity": 2,
+          "totalPrice": 110
+        }
+      ],
+      "totalAmount": 440,
+      "totalQuantity": 4,
+      "status": "Cancelled",
+      "id": 1
+    },
+    {
+      "items": [
+        {
+          "id": "04",
+          "title": "Maxican Green Wave",
+          "image01": "/static/media/product_4.1.3c8ecc49.jpg",
+          "price": 110,
+          "quantity": 1,
+          "totalPrice": 110
+        },
+        {
+          "id": 224,
+          "title": "Water Melon Juice",
+          "image01": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/yuis4vic3qt58sdfbbna",
+          "price": 50,
+          "quantity": 1,
+          "totalPrice": 50
+        }
+      ],
+      "totalAmount": 160,
+      "totalQuantity": 2,
+      "status": "Cancelled",
+      "userId": "1",
+      "id": 2
+    },
+    {
+      "items": [
+        {
+          "id": "03",
+          "title": "Double Cheese Margherita",
+          "image01": "/static/media/product_3.1.9c207cdf.jpg",
+          "price": 110,
+          "quantity": 4,
+          "totalPrice": 110
+        }
+      ],
+      "totalAmount": 440,
+      "totalQuantity": 4,
+      "status": "Delivered",
+      "userId": "1",
+      "id": 3
+    },
+    {
+      "items": [
+        {
+          "id": "04",
+          "title": "Maxican Green Wave",
+          "image01": "/static/media/product_4.1.3c8ecc49.jpg",
+          "price": 110,
+          "quantity": 1,
+          "totalPrice": 110
+        },
+        {
+          "id": "07",
+          "title": "Seafood Pizza",
+          "image01": "/static/media/product_2.2.4967c9cb.jpg",
+          "price": 115,
+          "quantity": 1,
+          "totalPrice": 115
+        }
+      ],
+      "totalAmount": 225,
+      "totalQuantity": 2,
+      "status": "Rejected",
+      "userId": "1",
+      "id": 4
+    }
+  ]
+}

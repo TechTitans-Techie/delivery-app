@@ -12,8 +12,9 @@ const Checkout = () => {
   const cartItems = useSelector((state) => state.cart.cartItems);
   const totalAmount = useSelector((state) => state.cart.totalAmount);
   const totalQuantity = useSelector((state) => state.cart.totalQuantity);
+  const userId = localStorage.getItem('authid');
   useEffect(() => {
-    axios.post("orders", { items: cartItems, totalAmount, totalQuantity, status: "Placed" })
+    axios.post("orders", { items: cartItems, totalAmount, totalQuantity, status: "Placed", userId })
       .then(() => {
         dispatch(cartActions.emptyCart())
         setLoading(false)

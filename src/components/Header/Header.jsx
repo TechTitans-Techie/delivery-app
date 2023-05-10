@@ -31,6 +31,7 @@ const nav__links = [
 
 const Header = () => {
   const menuRef = useRef(null);
+  const userid = localStorage.getItem('authid');
   const headerRef = useRef(null);
   const totalQuantity = useSelector((state) => state.cart.totalQuantity);
   const dispatch = useDispatch();
@@ -41,6 +42,12 @@ const Header = () => {
   const toggleCart = () => {
     dispatch(cartUiActions.toggle());
   };
+
+  useEffect(() => {
+    if (!userid) {
+      navigate("/login")
+    }
+  })
 
   console.log(menuRef?.current?.classList.value);
 
